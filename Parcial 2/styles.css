@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.bg-nav {
+    background-color: #7de035;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.logo-img-small {
+    width: 100px;
+}
+
+.section-separator {
+    border: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.165);
+    margin: 0;
+}
+
+/* Carrusel */
+
+.carousel {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.carousel-inner, .carousel-item {
+    margin: 0;
+}
+
+.carousel-caption {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 1.8em;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#servicios, #video, #contacto {
+    background-color: #c4fa9e;
+    padding: 40px 0;
+    width: 100%;
+}
+
+#banner {
+    margin-bottom: 0;
+}
+
+#servicios {
+    margin-top: 0;
+}
+
+#servicios {
+    padding-top: 0;
+}
+
+/* Sección Servicios */
+.bg-services {
+    background-color: #c4fa9e;
+}
+
+.small-img {
+    padding: 1px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+
+/* Reseñas */
+.card {
+    background-color: #c4fa9e;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Servicios y Reseñas Imágenes */
+
+#servicios img:hover, .card img:hover {
+    transform: scale(1.05);
+}
+
+/* Contacto */
+.bg-light-gray {
+    background-color: #bbb9b9;
+}
+
+#contacto button.btn-primary {
+    background-color:#85d44d;
+    border-color: #85d44d;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#contacto button.btn-primary:hover {
+    background-color: #7bc343;
+}
+
+/* Footer */
+.bg-dark-footer {
+    background-color: #3d810c;
+    color: white;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+/* Media Queries */
+
+@media (max-width: 475px) {
+    .carousel-caption {
+        display: block !important;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        font-size: 1em;
+        padding: 10px;
+        
+        border-radius: 5px;
+        color: white;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9em;
+        margin: 0;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.5em;
+    }
+
+    .carousel-caption p {
+        font-size: 1em;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .carousel-caption h2 {
+        font-size: 2.5em;
+    }
+
+    .carousel-caption p {
+        font-size: 1.5em;
+    }
+}
